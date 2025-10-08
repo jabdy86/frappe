@@ -106,7 +106,7 @@ runs:
       sudo apt -qq install libcups2-dev redis-server mariadb-client libmariadb-dev
 
       #wget -q -O /tmp/wkhtmltox.deb https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
-      sudo apt install /tmp/wkhtmltox.deb
+      #sudo apt install /tmp/wkhtmltox.deb
 
       end_time=$(date +%s)
       echo -e "\033[33mInstall System Dependencies: $((end_time - start_time)) seconds\033[0m"
